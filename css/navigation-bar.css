@@ -1,0 +1,9 @@
+.navigation-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navigation-bar__title{
+    font-weight: 600;
+    font-size:20px;
+}
