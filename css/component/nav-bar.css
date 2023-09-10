@@ -1,0 +1,41 @@
+.nav{
+    background-color: #f9f9fa;
+    padding:20px 50px;
+    box-sizing:border-box;
+    /* 예: width를 200px로 했을 때 padding을 50px로 하면 설정된 width 200px를 유지하기 위해 실제 총 width는 padding 값을 더한 숫자인 250px가 됨. box-sizing을 border-box로 설정하면 padding 값을 포함하여 width값을 유지함. */
+    border-top:1px solid rgba(121,121,121,0.3);
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+.nav__list{
+    display:flex;
+    justify-content: space-between;
+}
+.nav__link{
+    color:#2e363e;
+    position:relative;
+}
+
+.nav__notification{
+    background-color: tomato;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-weight: 600;
+    position:absolute;
+    left:20px;
+    bottom:20px;
+}
+.nav__point{
+    background-color: tomato;
+    width:5px;
+    height:5px;
+    border-radius: 50%;
+    position:absolute;
+    top:-15px;
+    right:-5px;
+}

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Friends - Kokoa clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -21,39 +21,41 @@
             <i class="fa-solid fa-bolt"></i>
         </div>
     </div>
-    <div class="navigation-bar">
-        <span class="navigation-bar__title">Friends</span>
-        <div>
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-gear"></i>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-solid fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                    <span class="nav__notification">1</span>
+                    <i class="fa-regular fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                    <i class="fa-solid fa-ellipsis-vertical fa-2x"></i>
+                    <div class="nav__point"></div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-music fa-lg"></i></span>
+            <span><i class="fa-solid fa-gear fa-lg"></i></span>
         </div>
-    </div>
-    <div>
-        <i class="fa-solid fa-exclamation"></i>
-        <span>Friends' Names Display</span>
-        <span>></span>
-    </div>
-    <div class="friends-list">
-        <img class="friends-list__picture" src="img/my-picture.jpg" />
-        <span class="friends-list__name">Yim Hochan</span>
-    </div>
-    <div class="channel-list">
-        <div>
-            <span>Channel</span>
-            <span>︿</span>    
-        </div>
-        <div>
-            <i class="fa-solid fa-comment"></i>
-            <span>Channel</span>
-            <span>2></span>
-        </div>
-    </div>
-    <div>
-        <i class="fa-solid fa-user"></i>
-        <i class="fa-regular fa-comment"></i>
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <i class="fa-solid fa-ellipsis-vertical"></i>
-    </div>
+    </header>
+    <a id="friends-display-link"><i class="fa-solid fa-circle-info"></i>Friends' Names Display</a>
     <script src="https://kit.fontawesome.com/6a40271ddd.js" crossorigin="anonymous"></script>
 </body>
 </html>
