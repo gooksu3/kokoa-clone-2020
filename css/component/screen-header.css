@@ -1,12 +1,13 @@
 .screen-header{
     position:fixed;
-    top:32px;
+    top:25px;
     width:100%;
     display:flex;
     padding:25px;
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
 }
 .screen-header__title{
     font-size:32px;

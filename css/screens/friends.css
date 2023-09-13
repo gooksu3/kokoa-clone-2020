@@ -1,0 +1,35 @@
+#friends-display-link{
+    position:fixed;
+    top:107px;
+    text-align:center;
+    width:100%;
+    background-color: #fafafa;
+    padding:15px 0px;
+    font-size:16px
+}
+#friends-display-link i{
+    color:rgba(0,0,0,0.3);
+}
+.channel{
+    width:100%;
+}
+.channel__list{
+    display:flex;
+    justify-content: space-between;
+}
+.channel__list__column2{
+    display:flex;
+    align-items: center;
+    margin:0px 20px;
+}
+.channel__list__column2 span{
+    color:rgba(0,0,0,0.3);
+}
+.channel__list__column2 i{
+    color:rgba(0,0,0,0.3);
+}
+
+.channel img{
+    height: 40px;
+    width:40px;
+}
