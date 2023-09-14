@@ -1,0 +1,17 @@
+.chats-screen{
+    padding:0px var(--horinontal-space);
+    margin-top:110px;
+}
+
+.bubble-plus{
+    position: relative;
+}
+.bubble-plus span{
+    position:absolute;
+    top:4px;
+    right:-3px;
+    background-color: white;
+    display: flex;
+    height:10px;
+    align-items: center;
+}

@@ -5,31 +5,31 @@
     width:100%;
     background-color: #fafafa;
     padding:15px 0px;
-    font-size:16px
+    font-size:18px;
+}
+.friends-screen__channel .user-component{
+    margin-top:0px;
+}
+.friends-screen{
+    padding: 0px var(--horinontal-space);
+}
+.friends-screen__channel{
+    border-top: 1px solid rgba(0,0,0,0.3);
+    margin: 15px 0px;
+}
+.friends-screen__channel-header{
+    color: rgba(0,0,0,0.3);
+    margin:15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.friends-screen__channel-list{
+    display:flex;
+    justify-content: space-between;
 }
 #friends-display-link i{
     color:rgba(0,0,0,0.3);
 }
-.channel{
-    width:100%;
-}
-.channel__list{
-    display:flex;
-    justify-content: space-between;
-}
-.channel__list__column2{
-    display:flex;
-    align-items: center;
-    margin:0px 20px;
-}
-.channel__list__column2 span{
-    color:rgba(0,0,0,0.3);
-}
-.channel__list__column2 i{
-    color:rgba(0,0,0,0.3);
-}
-
-.channel img{
-    height: 40px;
-    width:40px;
+.friends-screen__friends-list{
+    margin-top:160px;
 }

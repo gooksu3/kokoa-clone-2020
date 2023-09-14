@@ -3,7 +3,7 @@
     top:25px;
     width:100%;
     display:flex;
-    padding:25px;
+    padding:var(--horinontal-space);
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
@@ -13,6 +13,9 @@
     font-size:32px;
     font-weight:600;
 }
-.screen-header__icons span{
+.screen-header__icons{
+    display:flex;
+}
+.screen-header__icons>*{
     margin-left:25px;
 }

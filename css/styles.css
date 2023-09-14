@@ -9,6 +9,7 @@
 /* Screens */
 @import "screens/login-form.css";
 @import "screens/friends.css";
+@import "screens/chats.css";
 
 
 body{
@@ -31,4 +32,15 @@ body{
 .welcome-header__text{
     width:60%;
     opacity:0.7;
+}
+.number-mark{
+    background-color: tomato;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-weight: 600;
+    color:white;
 }
