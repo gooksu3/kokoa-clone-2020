@@ -23,10 +23,6 @@
     bottom:20px;
 }
 .nav__point{
-    background-color: tomato;
-    width:5px;
-    height:5px;
-    border-radius: 50%;
     position:absolute;
     top:-15px;
     right:-5px;

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find - Kokoa clone</title>
+</head>
+<body>
+    <div class="fixed-component">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fa-solid fa-battery-full fa-lg"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+        <header class="screen-header">
+            <h1 class="screen-header__title">Find</h1>
+            <div class="screen-header__icons">
+                <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+                <div class="screen-header__cog">
+                    <span><i class="fa-solid fa-gear fa-lg"></i></span>
+                    <div class="red-point"></div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <main class="find-screen main-screen">
+        <div class="find-screen__icons">
+            <div class="find-screen__icon">
+                <i class="fa-solid fa-qrcode fa-2x"></i>
+                <span class="find-screen__text">QR Code</span>
+            </div>
+            <div class="find-screen__icon">
+                <i class="fa-regular fa-address-book fa-2x"></i>
+                <span class="find-screen__text">Add by<br>Contacts</span>
+            </div>
+            <div class="find-screen__icon">
+                <div class="find-screen__id-mark">ID</div>
+                <span class="find-screen__text">Add by ID</span>
+            </div>
+            <div class="find-screen__icon">
+                <i class="fa-regular fa-envelope fa-2x"></i>
+                <span class="find-screen__text">Invite</span>
+            </div>
+        </div>
+        <div class="find-screen__recommended-friends">
+            <h6 class="find-screen__recommended-frineds__title">Recommended Friends</h6>
+            <span>You have no recommended friends</span>
+        </div>
+        <div class="find-screen__open-chat">
+            <div class="find-screen__open-chat__title">
+                <span class="find-screen__open-chat__title-text">Open Chat</span>
+                <span class="find-screen__open-chat__title-text">Go to Open chat Home <i class="fa-solid fa-chevron-right fa-xs"></i></span>
+            </div>
+            <div class="find-screen__oepn-chat__contents">
+                <div class="find-screen__oepn-chat__content">
+                    <div class="oepn-chat__content__column">
+                        <span class="oepn-chat__content__title">#BTS</span>
+                        <span class="oepn-chat__content__hash-tag">#BTS#ARMY#FRIENDS</span>
+                        <ul class="oepn-chat__content__state">
+                            <li><img src="img/my-picture.jpg" class="user-component__avatar user-component__avartar--vsm"/></li>
+                            <li><span class="oepn-chat__content__number-of-members">802 members </span></li>
+                            <li><span class="oepn-chat__content__number-of-members ">Active</span></li>
+                        </ul>
+                    </div>
+                    <div class="oepn-chat__content__column">
+                        <div class="find-screen__open-chat__content">
+                            <img class="open-chat__img" src="img/roborock.png" />
+                            <span><i class="fa-solid fa-heart"></i>326</span>
+                    </div>
+                    </div>
+                </div>
+                <div class="find-screen__oepn-chat__content">
+                    <div class="oepn-chat__content__column">
+                        <span class="oepn-chat__content__title">Bts Gamg~</span>
+                        <span class="oepn-chat__content__hash-tag">#englishonly #ipurpleyou #jimin #taeta...</span>
+                        <ul class="oepn-chat__content__state">
+                            <li><img src="img/my-picture.jpg" class="user-component__avatar user-component__avartar--vsm"/></li>
+                            <li><span class="oepn-chat__content__number-of-members">299 members </span></li>
+                            <li><span class="oepn-chat__content__number-of-members ">Active</span></li>
+                        </ul>
+                    </div>
+                    <div class="oepn-chat__content__column">
+                        <div class="find-screen__open-chat__content">
+                            <img class="open-chat__img" src="img/roborock.png" />
+                            <span><i class="fa-solid fa-heart"></i>215</span>
+                    </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </main>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-regular fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <i class="fa-regular fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <i class="fa-solid fa-ellipsis-vertical fa-2x"></i>
+                    <div class="nav__point red-point"></div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <script src="https://kit.fontawesome.com/6a40271ddd.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+.red-point{
+    background-color: tomato;
+    width:5px;
+    height:5px;
+    border-radius: 50%;
+}
