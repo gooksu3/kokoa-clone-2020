@@ -9,11 +9,13 @@
 @import "component/badge.css";
 @import "component/red-point.css";
 @import "component/open-chat-content.css";
+@import "component/icon-raw.css";
 /* Screens */
 @import "screens/login-form.css";
 @import "screens/friends.css";
 @import "screens/chats.css";
 @import "screens/find.css";
+@import "screens/more.css";
 
 
 body{
@@ -26,6 +28,8 @@ body{
     flex-direction: column;
     width:100%;
     top:0px;
+    box-sizing: border-box;
+    z-index: 1;
 }
 
 .welcome-header{
@@ -47,4 +51,5 @@ body{
 .main-screen{
     margin-right:var(--horinontal-space);
     margin-left:var(--horinontal-space);
+    box-sizing: border-box;
 }

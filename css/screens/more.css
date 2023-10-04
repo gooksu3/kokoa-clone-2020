@@ -1,0 +1,104 @@
+.more-screen{
+    margin-top: 110px;
+    box-sizing: border-box;
+}
+.user-component__exclamation-mark{
+    color:red;
+    border:1px solid red;
+    padding:0px 5px;
+    height:12px;
+    border-radius: 50%;
+    margin-left: 6px;
+    font-size:8px;
+    display: flex;
+    align-items: center;
+}
+.user-component__subtitle{
+    display:flex;
+    align-items: center;
+}
+.user-component__more-info{
+    position:relative;
+}
+.user-component__2lines{
+    position:absolute;
+    top:11px;
+    left:9px;
+}
+.user-component__more-info i{
+    color:#2e363e;
+}
+.user-component__line{
+    background-color: #2e363e;
+    height:2px;
+    width:15px;
+    border-radius: 30px;
+}
+.user-component__line:first-child{
+    margin-bottom: 4px;;
+}
+.more-screen__icons{
+    padding:20px 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.more-screen__icon-pack{
+    display:flex;
+    align-items: center;
+}
+.more-screen__icon{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:22px 22px;
+}
+.more-screen__icon-pack:last-child .more-screen__icon:first-child i{
+    border:2px solid #2e363e;
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more-screen__icon-text{
+    margin-top:10px;
+}
+.more-screen__icon{
+    position:relative;
+}
+.more-screen__icon-pack:last-child .more-screen__icon:last-child div{
+    position:absolute;
+    top:18px;
+    left:18px;
+    background-color: white;
+}
+.more-screen__suggetion{
+    margin:10px;
+    margin-top:0px;
+}
+.more-screen__suggetion:first-child{
+    margin-left: 0px;
+}
+.more-screen__suggetions-title{
+    font-weight:600;
+    font-size:18px;
+    margin:25px 0px;
+}
+.more-screen__suggetion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.more-screen__suggetions div{
+    display: flex;
+}
+.more-screen__suggetion-img img{
+    width:60px;
+    height:60px;
+    border-radius: 7px;
+}
+.more-screen__suggetion-text{
+    margin-top: 10px;
+    color:rgba(0,0,0,0.5);
+}

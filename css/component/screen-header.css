@@ -1,7 +1,4 @@
 .screen-header{
-    /* position:fixed; */
-    /* top:25px; */
-    /* width:100%; */
     display:flex;
     padding:var(--horinontal-space);
     box-sizing: border-box;
