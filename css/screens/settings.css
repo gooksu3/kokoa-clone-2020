@@ -1,0 +1,47 @@
+.settings-screen{
+    margin-top:110px;
+}
+.settings__setting{
+    padding:20px 0;
+    border-bottom:1px solid rgba(0,0,0,0.2);
+    font-size:18px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.settings-list{
+    margin-left:var(--horinontal-space);
+    margin-right:var(--horinontal-space);
+}
+.settings__setting-divider{
+    border-bottom:var(--main-border);
+    margin:15px 0px;
+}
+.settings__setting:last-child{
+    border:none;
+}
+.settings__setting-column{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.settings__setting-notification{
+    height:15px;
+    width:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2px;
+    color:white;
+    border-radius: 50%;
+    background-color: tomato;
+    border:none;
+    margin-left:8px;
+    font-weight: 600;
+}
+.settings__setting-text{
+    margin-left:22px;
+}
+.settings__setting-status{
+    color:rgba(0,0,0,0.3);
+}

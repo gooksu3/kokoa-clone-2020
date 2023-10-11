@@ -122,3 +122,22 @@
     margin-left: 10px;
     border-radius: 10px;
 }
+
+@keyframes heartBeat{
+    0%{
+        color:white;
+        transform:none;
+    }
+    50%{
+        color:tomato;
+        transform: scale(1.3);
+    }
+    100%{
+        color:white;
+        transform:none;
+    }
+}
+.find-screen__open-chat__content:hover i{
+    will-change: transform;
+    animation:heartBeat 1s linear infinite;
+}

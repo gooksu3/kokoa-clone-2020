@@ -24,3 +24,16 @@
     bottom:20px;
     right: -5px;
 }
+
+@keyframes spinningIcon{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: none;
+    }
+}
+
+.screen-header i:hover{
+    animation: spinningIcon 0.5s linear infinite;
+}

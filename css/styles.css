@@ -9,13 +9,16 @@
 @import "component/badge.css";
 @import "component/red-point.css";
 @import "component/open-chat-content.css";
-@import "component/icon-raw.css";
+@import "component/alt-screen-header.css";
+@import "component/no-mobile.css";
 /* Screens */
 @import "screens/login-form.css";
 @import "screens/friends.css";
 @import "screens/chats.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 
 body{
